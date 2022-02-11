@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE phones SYSTEM "C:\Users\User\Downloads\3К\Java\LR3.ru\Server\src\phones.dtd">
+
+<phones>
+    <phone modelindex="1584" name="HONOR 9" manufacturer="HUAWEI" operatingsystem="Android 9"
+           releaseyear="2017">
+        <review website="Digital Trends" score="5"/>
+        <review website="PC Magazine" score="4"/>
+        <review website="Swedroid" score="4"/>
+        <review website="AndroidPit" score="5"/>
+        <average>5</average>
+    </phone>
+    <phone modelindex="2765" name="Xiaomi Redmi Note 10" manufacturer="Xiaomi" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="Android Authority" score="3"/>
+        <review website="Gadgets 360" score="4"/>
+        <average>4</average>
+    </phone>
+    <phone modelindex="3543" name="Samsung Galaxy S10e" manufacturer="Samsung Electronics" operatingsystem="Android 10"
+           releaseyear="2002">
+        <review website="The Verge" score="4"/>
+        <review website="AnandTech" score="4"/>
+        <review website="Wired" score="5"/>
+        <review website="DXOMARK" score="5"/>
+    </phone>
+    <phone modelindex="4123" name="Nokia 6131" manufacturer="Nokia" operatingsystem="Series 40"
+           releaseyear="2003">
+        <review website="CNET" score="3"/>
+        <review website="PhoneArena" score="4"/>
+        <average>4</average>
+    </phone>
+    <phone modelindex="532" name="Moto E" manufacturer="Motorola Mobility" operatingsystem="Android 5.0.2"
+           releaseyear="2005">
+        <review website="Ars Technica" score="4"/>
+        <average>5</average>
+    </phone>
+    <phone modelindex="63" name="Redmi Note 9" manufacturer="Xiaomi Corporation" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="CNET" score="3"/>
+    </phone>
+    <phone modelindex="3454" name="P90" manufacturer="HUAWEI" operatingsystem="Android 9.0" releaseyear="2017">
+        <review website="The Verge" score="4"/>
+        <review website="AnandTech" score="4"/>
+        <review website="Wired" score="5"/>
+    </phone>
+    <phone modelindex="432" name="ZTE Axon 20 5G" manufacturer="ZTE" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="Wired" score="5"/>
+        <review website="PC Magazine" score="4"/>
+        <review website="Swedroid" score="4"/>
+    </phone>
+    <phone modelindex="12" name="Siemens A60" manufacturer="Siemens AG" operatingsystem="Siemens"
+           releaseyear="2003">
+        <review website="PC Magazine" score="4"/>
+    </phone>
+    <phone modelindex="42" name="Nokia 6680" manufacturer="Nokia" operatingsystem="Series 60"
+           releaseyear="2005">
+        <review website="The Verge" score="3"/>
+        <review website="Wired" score="5"/>
+    </phone>
+    <phone modelindex="32" name="HUAWEI MediaPad M6" manufacturer="HUAWEI" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="Swedroid" score="4"/>
+    </phone>
+    <phone modelindex="76" name="Motorola Moto G8" manufacturer="Motorola" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="CNET" score="3"/>
+        <review website="Android Authority" score="3"/>
+    </phone>
+    <phone modelindex="56" name="realme 6 Pro" manufacturer="realme" operatingsystem="Android 10"
+           releaseyear="2020">
+        <review website="PC Magazine" score="5"/>
+        <review website="The Verge" score="3"/>
+        <review website="Wired" score="5"/>
+    </phone>
+    <phone modelindex="57" name="Samsung Galaxy A71" manufacturer="Samsung" operatingsystem="Android 10"
+           releaseyear="2019">
+        <review website="PC Magazine" score="3"/>
+        <review website="Swedroid" score="4"/>
+    </phone>
+    <phone modelindex="85" name="P10" manufacturer="HUAWEI" operatingsystem="Android 9.0" releaseyear="2017">
+        <review website="PC Magazine" score="2"/>
+        <review website="Digital Trends" score="5"/>
+    </phone>
+</phones>

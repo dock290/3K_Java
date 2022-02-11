@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [15/Dec/2020:02:15:49 +0400] "GET / HTTP/1.1" 200 18693 http-bio-8088-exec-1 1927
+0:0:0:0:0:0:0:1 - - [15/Dec/2020:02:15:49 +0400] "GET /css/style.css HTTP/1.1" 200 4714 http-bio-8088-exec-2 74
+0:0:0:0:0:0:0:1 - - [15/Dec/2020:02:15:49 +0400] "GET /js/tableevents.js HTTP/1.1" 200 3994 http-bio-8088-exec-3 70
+0:0:0:0:0:0:0:1 - - [15/Dec/2020:02:15:49 +0400] "GET /js/sidebarformevents.js HTTP/1.1" 200 1164 http-bio-8088-exec-4 77

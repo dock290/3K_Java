@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE phones SYSTEM "phones.dtd">
+
+<phones>
+    <phone name="HONOR 9" manufacturer="Huawei" operatingsystem="Android 9 Pie">
+        <review website="Digital Trends" score="5"/>
+        <review website="PC Magazine" score="4"/>
+        <review website="Swedroid" score="4"/>
+        <review website="AndroidPit" score="5"/>
+        <average>4</average>
+    </phone>
+    <phone name="Xiaomi Redmi Note 8" manufacturer="Xiaomi" operatingsystem="Android 9.0 Pie">
+        <review website="Android Authority" score="3"/>
+        <review website="Gadgets 360" score="4"/>
+        <average>4</average>
+    </phone>
+    <phone name="Samsung Galaxy S10e" manufacturer="Samsung Electronics" operatingsystem="Android 10">
+        <review website="The Verge" score="4"/>
+        <review website="AnandTech" score="4"/>
+        <review website="Wired" score="5"/>
+        <review website="DXOMARK" score="5"/>
+    </phone>
+    <phone name="Nokia 6131" manufacturer="Nokia" operatingsystem="Series 40">
+        <review website="CNET" score="3"/>
+        <review website="PhoneArena" score="4"/>
+        <average>4</average>
+    </phone>
+    <phone name="Moto E" manufacturer="Motorola Mobility" operatingsystem="Android 5.0.2 Lollipop">
+        <review website="Ars Technica" score="4"/>
+        <average>5</average>
+    </phone>
+</phones>

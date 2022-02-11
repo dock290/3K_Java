@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//RU" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+        <title>Телефоны</title>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css\style.css">
+        <script src="js\tableevents.js" charset="utf-8"></script>
+        <script src="js\sidebarformevents.js" charset="utf-8"></script>
+    </head>
+    <body class="background-layout">
+        <div class="page-layout">
+            <div class="sidebar-layout">
+                <div class="main-page">
+                    <div class="table">
+                        <div class="table-body">
+                            <table id="phonetable" align="center" cols="9" cellpadding="4">
+                                <thead>
+									<tr>
+										<th class="table-head-cell">Номер модели</th>
+										<th class="table-head-cell">Название</th>
+										<th class="table-head-cell">Производитель</th>
+										<th class="table-head-cell">Операционная система</th>
+										<th class="table-head-cell">Год выпуска</th>
+                                        <th class="table-head-cell">Журнал</th>
+                                        <th class="table-head-cell">Оценка</th>
+										<th class="table-head-cell">Средняя оценка</th>
+										<th class="table-head-cell"><a href="javascript:tableDeleteButtonOnClick()">Удалить</a></th>
+									</tr>
+								</thead>
+								<tbody>
+									<script src="js\tablefill.js" charset="utf-8"></script>
+									<tr>
+										<form id="editphonetable" method="get" onsubmit="return tableAddNewRow()">
+											<td class="table-cell"><input required id="table-cell-input-number" class="table-cell-input"></td>
+											<td class="table-cell"><input required id="table-cell-input-name" class="table-cell-input"></td>
+											<td class="table-cell"><input required id="table-cell-input-manufacturer" class="table-cell-input"></td>
+											<td class="table-cell"><input required id="table-cell-input-operationsystem" class="table-cell-input"></td>
+											<td class="table-cell"><input required id="table-cell-input-releasedate" class="table-cell-input"></td>
+                                            <td class="table-cell"><input id="table-cell-input-review-website" class="table-cell-input"></td>
+                                            <td class="table-cell"><input id="table-cell-input-review-score" class="table-cell-input"></td>
+											<td class="table-cell"><input id="table-cell-input-score" class="table-cell-input"></td>
+											<td class="table-cell"><button class="table-cell-button">Создать</button></td>
+										</form>
+									</tr>
+								</tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="sidebar-form">
+                        <form id="sidebar-form-model" method="get" onsubmit="return isValidFormNumber()">
+                            <div class="sidebar-form-group">
+                                <p class="sidebar-form-label">Введите номер модели:</p>
+                                <input required class="sidebar-form-input" id="sidebar-form-input-number" type="text" name="number">
+                                <button class="sidebar-form-button" id="sidebar-form-input-number-button">Подтвердить</button>
+                            </div>
+                        </form>
+                        <form id="sidebar-form-name" method="get" onsubmit="return isValidFormName()">
+                            <div class="sidebar-form-group">
+                                <p class="sidebar-form-label">Введите название телефона:</p>
+                                <input required class="sidebar-form-input" id="sidebar-form-input-name" type="text" name="name" value="Nokia 6131" onfocus="sidebarFormInputNameOnFocus()" onchange="sidebarFormInputNameOnChange()" onblur="sidebarFormInputNameOnBlur()">
+                                <button class="sidebar-form-button" id="sidebar-form-input-name-button">Подтвердить</button>
+                            </div>
+                        </form>
+                        <form id="sidebar-form-full" method="get" onsubmit="return isValidFormShowFulltable()">
+                            <div class="sidebar-form-group-fulltable">
+                                <button class="sidebar-form-button-fulltable" id="sidebar-form-button-fulltable" name="showfulltable" value="true" onclick="test()">Показать всю информацию</button>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </body>
+</html>

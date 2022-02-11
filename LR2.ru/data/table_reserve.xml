@@ -1,0 +1,108 @@
+<tr>
+    <td></td>
+    <th class="table-cell" align="left">Название телефона</th>
+    <td class="table-cell">Производитель</td>
+    <td class="table-cell">Операционная система</td>
+    <td class="table-cell">Год выпуска</td>
+    <td class="table-cell">Оценка</td>
+    <td></td>
+</tr>
+<tr>
+    <td class="table-cell"><input type="checkbox"></td>
+        <td class="table-cell">HONOR 9</td>
+        <td class="table-cell">HUAWEI</td>
+        <td class="table-cell">Android 9.0</td>
+        <td class="table-cell">2017</td>
+        <td class="table-cell">5</td>
+        <td class="table-cell"><a href="">Удалить</a></td>
+        </tr>
+    <tr>
+        <td class="table-cell"><input type="checkbox"></td>
+            <td class="table-cell">P10</td>
+            <td class="table-cell">HUAWEI</td>
+            <td class="table-cell">Android 9.0</td>
+            <td class="table-cell">2017</td>
+            <td class="table-cell">4</td>
+            <td class="table-cell"><a href="">Удалить</a></td>
+            </tr>
+        <tr>
+            <td class="table-cell"><input type="checkbox"></td>
+                <td class="table-cell">Nokia 6131</td>
+                <td class="table-cell">Nokia</td>
+                <td class="table-cell">Series 40</td>
+                <td class="table-cell">2006</td>
+                <td class="table-cell">4</td>
+                <td class="table-cell"><a href="">Удалить</a></td>
+                </tr>
+            <tr>
+                <td class="table-cell"><input type="checkbox"></td>
+                    <td class="table-cell">Redmi Note 9</td>
+                    <td class="table-cell">Xiaomi Corporation</td>
+                    <td class="table-cell">Android 10</td>
+                    <td class="table-cell">2020</td>
+                    <td class="table-cell">3</td>
+                    <td class="table-cell"><a href="">Удалить</a></td>
+                    </tr>
+                <tr>
+                    <td class="table-cell"><input type="checkbox"></td>
+                        <td class="table-cell">Samsung Galaxy A71</td>
+                        <td class="table-cell">Samsung</td>
+                        <td class="table-cell">Android 10</td>
+                        <td class="table-cell">2019</td>
+                        <td class="table-cell">5</td>
+                        <td class="table-cell"><a href="">Удалить</a></td>
+                        </tr>
+                    <tr>
+                        <td class="table-cell"><input type="checkbox"></td>
+                            <td class="table-cell">realme 6 Pro</td>
+                            <td class="table-cell">realme</td>
+                            <td class="table-cell">Android 10</td>
+                            <td class="table-cell">2020</td>
+                            <td class="table-cell">5</td>
+                            <td class="table-cell"><a href="">Удалить</a></td>
+                            </tr>
+                        <tr>
+                            <td class="table-cell"><input type="checkbox"></td>
+                                <td class="table-cell">Motorola Moto G8</td>
+                                <td class="table-cell">Motorola</td>
+                                <td class="table-cell">Android 10</td>
+                                <td class="table-cell">2020</td>
+                                <td class="table-cell">4</td>
+                                <td class="table-cell"><a href="">Удалить</a></td>
+                                </tr>
+                            <tr>
+                                <td class="table-cell"><input type="checkbox"></td>
+                                    <td class="table-cell">HUAWEI MediaPad M6</td>
+                                    <td class="table-cell">HUAWEI</td>
+                                    <td class="table-cell">Android 10</td>
+                                    <td class="table-cell">2020</td>
+                                    <td class="table-cell">4</td>
+                                    <td class="table-cell"><a href="">Удалить</a></td>
+                                    </tr>
+                                <tr>
+                                    <td class="table-cell"><input type="checkbox"></td>
+                                        <td class="table-cell">Nokia 6680</td>
+                                        <td class="table-cell">Nokia</td>
+                                        <td class="table-cell">Series 60</td>
+                                        <td class="table-cell">2005</td>
+                                        <td class="table-cell">4</td>
+                                        <td class="table-cell"><a href="">Удалить</a></td>
+                                        </tr>
+                                    <tr>
+                                        <td class="table-cell"><input type="checkbox"></td>
+                                            <td class="table-cell">Siemens A60</td>
+                                            <td class="table-cell">Siemens AG</td>
+                                            <td class="table-cell">Siemens</td>
+                                            <td class="table-cell">2003</td>
+                                            <td class="table-cell">3</td>
+                                            <td class="table-cell"><a href="">Удалить</a></td>
+                                            </tr>
+                                        <tr>
+                                            <td class="table-cell"><input type="checkbox"></td>
+                                                <td class="table-cell">ZTE Axon 20 5G</td>
+                                                <td class="table-cell">ZTE</td>
+                                                <td class="table-cell">Android 10</td>
+                                                <td class="table-cell">2020</td>
+                                                <td class="table-cell">4</td>
+                                                <td class="table-cell"><a href="">Удалить</a></td>
+                                                </tr>

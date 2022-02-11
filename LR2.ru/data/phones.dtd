@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+        <!ELEMENT phones (phone*)>
+
+        <!ELEMENT phone (review*,average?)>
+        <!ATTLIST phone
+                modelindex CDATA #REQUIRED
+                name CDATA #REQUIRED
+                manufacturer CDATA #REQUIRED
+                operatingsystem CDATA #REQUIRED
+                releaseyear CDATA #REQUIRED
+                >
+
+        <!ELEMENT review EMPTY>
+        <!ATTLIST review
+                website CDATA #REQUIRED
+                score (1|2|3|4|5) #REQUIRED
+                >
+
+        <!ELEMENT average (#PCDATA)>
